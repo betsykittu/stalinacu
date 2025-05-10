@@ -1,0 +1,55 @@
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.content {
+  text-align: justify;
+}
+
+.about-wrap {
+  margin-top: -50px;
+}
+
+.site-about {
+  padding: 30px 0px;
+}
+
+.text-center .desc {
+  margin: 0 auto 30px auto;
+}
+
+.post-entry-1 .post-entry-1-contents .meta {
+  margin-bottom: 15px;
+  color: #999;
+}
+
+.post-entry-1 .post-entry-1-contents .meta a {
+  color: #000;
+}
+
+.post-entry-1 .post-entry-1-contents h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.post-entry-1 .post-entry-1-contents h2 a {
+  color: #000;
+}
+
+.post-entry-1.person-1 {
+  text-align: center;
+}
+
+.post-entry-1.person-1 img {
+  width: 130px;
+  border-radius: 50%;
+  margin: 0 auto -45px auto;
+}
+
+.post-entry-1.person-1 .post-entry-1-contents {
+  padding-top: 4rem;
+}

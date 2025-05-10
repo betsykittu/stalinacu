@@ -1,0 +1,58 @@
+.therapies {
+  width: 100%;
+  background: #fff;
+}
+
+.site-therapies {
+  padding: 30px 0;
+}
+
+.text-center .desc {
+  margin: 0 auto 30px auto;
+}
+
+.therapies .therapy {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.therapies .therapy .icon-wrap {
+  margin-bottom: 30px;
+}
+
+.therapies .therapy .icon-wrap>span {
+  font-size: 80px;
+  color: #000;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.therapies .therapy h3 {
+  position: relative;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #000;
+}
+
+.therapies .therapy:hover {
+  background: #fff;
+}
+
+.therapies .therapy:hover .icon-wrap span {
+  color: #0d6efd;
+}
+
+.therapies .therapy:hover h3 {
+  color: #0d6efd;
+}
+
+.therapies .therapy:hover h3:before {
+  background: #0d6efd;
+}
+
+

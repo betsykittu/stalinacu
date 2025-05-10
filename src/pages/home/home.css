@@ -1,0 +1,76 @@
+.site-service {
+  margin-top: -50px;
+}
+
+.site-therapies {
+  padding: 20px 0;
+}
+
+.hero {
+  position: relative;
+  background-size: cover;
+}
+
+.hero,
+.hero>.container>.row {
+  height: 100vh;
+  min-height: 570px;
+}
+
+.hero .intro {
+  position: relative;
+  z-index: 4;
+}
+
+.hero .intro h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+  .hero .intro h1 {
+    font-size: 40px;
+  }
+}
+
+.hero .intro strong {
+  font-weight: 900;
+}
+
+.hero.inner-page,
+.hero.inner-page>.container>.row {
+  height: 40vh !important;
+  min-height: 200px;
+}
+
+.service-2 {
+  padding: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none !important;
+}
+
+.service-2 .icon-wrap {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
+  font-size: 60px;
+  text-decoration: none !important;
+}
+
+.service-2 .contents h3 {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none !important;
+}
+
+.service-2 .contents p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  text-decoration: none !important;
+}
+
+.text-center .desc {
+  margin: 0 auto 30px auto;
+}
